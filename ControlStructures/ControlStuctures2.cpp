@@ -1,4 +1,4 @@
-#include<iostream>
+п»ї#include<iostream>
 #include<conio.h>
 using namespace std;
 
@@ -10,9 +10,9 @@ void main()
 {
 	setlocale(LC_ALL, "");
 #if define WHILE_1
-	int i = 0; // Счетчик цикла
-	int n; // Количество итераций
-	cout << "Введите количество итераций: "; cin >> n;
+	int i = 0; // РЎС‡РµС‚С‡РёРє С†РёРєР»Р°
+	int n; // РљРѕР»РёС‡РµСЃС‚РІРѕ РёС‚РµСЂР°С†РёР№
+	cout << "Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ РёС‚РµСЂР°С†РёР№: "; cin >> n;
 	while (i < n)
 	{
 		cout << i++ << " Hello" << endl;
@@ -20,7 +20,7 @@ void main()
 	}
 #endif
 
-	char key; // КОД нажатой клавиши
+	char key; // РљРћР” РЅР°Р¶Р°С‚РѕР№ РєР»Р°РІРёС€Рё
 	do
 	{
 		key = _getch();
